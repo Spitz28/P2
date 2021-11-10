@@ -1,0 +1,356 @@
+/* INDEX PAGE */
+.Home_heading{
+    color: #d33d24;
+    position: fixed;
+    top: 500px;
+    left: 100px;
+    z-index: 1;
+    font-family: 'Galindo';font-size:45px;
+}
+
+.image1{
+    position: fixed;
+    z-index: -1;
+    bottom: 3px;
+    left: 35px;
+}
+
+.homebackground{
+    position: fixed;
+    left: 705px;
+    bottom: -35px;
+}
+
+.homenavbar{
+    position: fixed;
+    left: 1070px;
+    top: 300px;
+    z-index: 1;
+}
+
+.homenavbar a:hover{
+    color: #d33d24;
+
+}
+
+
+.homenavbar ul li{
+    list-style: none;
+}
+
+.homenavbar ul li a {
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Galindo';font-size:40px;
+    color: black;
+}
+
+/* END INDEX PAGE */
+/*BIOGRAPHY PAGE*/
+.Bio_heading{
+    position: relative;
+    left: 20px;
+    font-family: 'Galindo';font-size:45px;
+    width: 50%;
+}
+
+.Bio_body{
+    position: absolute;
+    left: 40px;
+  font-family: 'Libre Baskerville';font-size: 16px; 
+  width: 490px;
+   background-color: #eca806;
+   padding-right: 15px;
+   padding-left: 15px;
+}
+
+.Biobackground{
+    position: fixed;
+    bottom: 0px;
+    left: 990px;
+    z-index: -1;
+}
+
+.bionavbar{
+    position: fixed;
+    left: 1160px;
+    top: 85px;
+}
+
+.bionavbar a:hover{
+    color: #d33d24;
+
+}
+
+
+.bionavbar ul li{
+    list-style: none;
+}
+
+.bionavbar ul li a {
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Galindo';font-size:40px;
+    color: black;
+}
+
+//*.textreveal{
+position: absolute;
+left: 40px;
+top: 311px;
+width: 520px;
+height: 950px;
+//*height: 1250px;*//
+//*z-index: 10;
+animation-delay: 2s;
+animation: pic 2s ease-in 2s 1;
+animation-fill-mode: forwards;
+}*//
+
+@keyframes pic {
+0%{ top: 450px; }
+100%{top: 223%;}
+}
+
+
+.handring{
+position: absolute;
+top: 450px;
+left: 9px;
+animation-delay: 1s;
+animation: pic 2s ease-out 2s 1;
+animation-fill-mode: forwards;
+z-index: 30;
+
+}
+
+@keyframes pic {
+0%{ top: 450px; }
+100%{top: 223%;}
+}
+
+
+
+.hand{
+    z-index: 60;
+}
+
+.float{
+  shape-outside: polygon(10% 0%, 100% 10%, 70% 90%, 0% 100%);
+        shape-image-threshold: 0;
+        margin-right: 20px;
+    /*position: absolute;*/
+    float: left;
+    /*left: -305px;
+    top: 700px;*/
+}
+
+/*END BIOGRAPHY PAGE*/
+/*GALLERY PAGE*/
+.gallerybody{
+    height: 1600px;
+}
+
+.galleryheading{
+    position: absolute;
+    left: 20px;
+    font-family: 'Galindo';font-size:45px
+
+}
+.gallerybackground{
+    position: fixed;
+    bottom: -200px;
+    z-index: -1;
+}
+
+.gallerynavbar{
+    position: fixed;
+    left: 1160px;
+    top: 85px;
+}
+
+.gallerynavbar a:hover{
+    color: #d33d24;
+
+}
+
+.gallerynavbar ul li{
+    list-style: none;
+}
+
+.gallerynavbar ul li a {
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Galindo';font-size:40px;
+    color: black;
+}
+
+.all_images{
+    position: absolute;
+    top: 250px;
+}
+
+.anatomy{
+position: absolute;
+left: 40px;
+top: 7px;
+width: 70%;
+}
+
+.anatomyIMG{transition: transform .5s ease-out;
+transform-origin: ;
+}
+
+.anatomyIMG:hover{
+transform: scale(1.1);
+border: 8px solid black;
+}
+
+
+.one{
+position: absolute;
+left: 500px;
+top: 7px;
+width: 70%;
+}
+
+.oneIMG{transition: transform .5s ease-out;
+transform-origin: ;
+}
+
+.oneIMG:hover{
+transform: scale(1.1);
+border: 8px solid black;
+}
+
+.nine{
+position: absolute;
+left: 40px;
+top: 451px;
+width: 70%;
+}
+
+.nineIMG{transition: transform .5s ease-out;
+transform-origin: ;
+}
+
+.nineIMG:hover{
+transform: scale(1.1);
+border: 8px solid black;
+}
+
+
+.vertigo{
+position: absolute;
+left: 500px;
+top: 451px;
+width: 70%;
+}
+
+.vertigoIMG{transition: transform .5s ease-out;
+transform-origin: ;
+}
+
+.vertigoIMG:hover{
+transform: scale(1.1);
+border: 8px solid black;
+}
+
+.edge{
+position: absolute;
+left: 40px;
+top: 896px;
+width: 70%;
+}
+
+.edgeIMG{transition: transform .5s ease-out;
+transform-origin: ;
+}
+
+.edgeIMG:hover{
+transform: scale(1.1);
+border: 8px solid black;
+}
+
+.man{
+position: absolute;
+left: 500px;
+top: 896px;
+width: 70%;
+}
+
+.manIMG{transition: transform .5s ease-out;
+transform-origin: ;
+}
+
+.manIMG:hover{
+transform: scale(1.1);
+border: 8px solid black;
+}
+
+
+
+
+
+
+
+
+/*END GALLERY PAGE*/
+/*AWARDS PAGE*/
+
+.awardsheading{
+    position: absolute;
+    left: 20px;
+    font-family: 'Galindo';font-size:45px
+}
+
+.awardsbackground{
+    position: fixed;
+    left: 966px;
+}
+
+
+.awardsbody{
+    position: absolute;
+    left: 40px;
+    top: 250px;
+}
+
+.awardsnavbar{
+    position: fixed;
+    left: 1160px;
+    top: 85px;
+}
+
+.awardsnavbar a:hover{
+    color: #d33d24;
+
+}
+
+
+.awardsnavbar ul li{
+    list-style: none;
+}
+
+.awardsnavbar ul li a {
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Galindo';font-size:40px;
+    color: black;
+}
+
+h2{
+    color: #d33d24;
+    font-family: 'Libre Baskerville';font-size: 23px; 
+}
+
+
+.black{
+    font-family: 'Libre Baskerville';font-size: 16px;
+}
+
+.orange{
+    color: #eca806;
+    font-family: 'Libre Baskerville';font-size: 16px;
+}
+/*END AWARDS PAGE*/
